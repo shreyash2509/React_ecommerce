@@ -30,7 +30,8 @@ const Payment = () => {
       ); 
     } else if (isPaymentConfirmed) {
       return <div>
-        <span className="card-title text-5xl blacker leading-12">
+        <span className="flex items-center flex-col card-title text-5xl blacker leading-12">
+        <img src="/images/tick.png" alt="Confirm Icon - Payment Success @clipartmax.com" />
         Payment confirmed !!!
         </span>
     </div>; 
